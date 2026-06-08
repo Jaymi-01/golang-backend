@@ -36,3 +36,19 @@
 - `%v` is a special character for placeholder
 - `\n` is a special character to break line
 - `printf` function allows you to tell go how to format the variables you are referencing
+
+# Data Types
+
+- In Go, all values have datatypes, the most basic are `strings` and `integers`
+- each data types can be used differently and behaves differently
+- the point of having types for values in code is to avoid accidentally using integers as strings, and vice versa, and a data type instead of the other
+
+`Go is a statically typed language, you need to tell the compiler the data type when declaring the variable, but Go can infer the type when you assign a value.`
+
+- `uint` represents only positive whole numbers while `int` represents whole numbers
+- setting a type protects a value from getting a variable it is not supposed to get
+
+# Syntatic Sugar
+
+- a term used to describe a feature in a language that lets you do something easily
+- does not add new functionality taht it did not already have
